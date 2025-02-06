@@ -1,5 +1,2 @@
-#Example code for problem 01
-with open("input.txt") as f:
-  name = f.read().strip()
-
-print(f"Never give up, never surrender, {name}")
+import sys
+print(f"Retraction: Did I say that out loud? I apologize, {sys.stdin.read().strip()}. While you are a meatbag, I suppose I should not call you such.")
